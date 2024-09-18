@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+    background-image: url('/img/thumb-1920-1125193.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    backdrop-filter: blur(2px);
+}
+
+.caixa{
+    width: 420px;
+    padding: 20px 40px;
+    border-radius: 20px;
+}
+
+.caixa h1{
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.caixa .caixa-cont{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    margin: 30px 0;
+}
+
+.caixa-cont input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 40px;
+    font-size: 16px;
+    color: white;
+    padding: 23px 10px 20px 10px;
+}
+
+.caixa-cont input::placeholder{
+    color: white;
+    background: transparent;
+}
+
+.caixa-cont i{
+    position: fixed;
+    left: 57.8%;
+    font-size: 20px;
+    transform: translateY(73%);
+    color: white;
+}
+
+.caixa .botao{
+   text-decoration: none;
+   font-size: 23px;
+   color: white;
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   
+   font-weight: 600;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   width: 100%;
+   border: 2px solid white;
+   border-radius: 10px;
+   height: 50px;
+   padding: 10px;
+}
+
+.botao:hover{
+    background: white;
+    color: black;
+    border-radius: 40px;
+    transition: 0.8s;
+}

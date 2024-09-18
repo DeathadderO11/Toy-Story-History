@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-position: center;
+    background-size: cover;
+    background: rgb(7, 2, 47);
+}
+
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1.3rem 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    height: 100px;
+    width: 105px;
+    display: flex;
+    margin-left: -90px;
+}
+
+.navbar a{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.15rem;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 2.5rem;
+    padding: 15px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+a:hover{
+    background: rgba(0, 0, 0, .7);
+    border: 2px solid white;
+    transition: 0.3s;
+    border-radius: 20px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+}
+
+.personagem1{
+    position: relative;
+    display: flex;
+    height: 500px;
+    margin-top: -47%;
+    left: 30px;
+}
+
+.personagem2{
+    position: relative;
+    display: flex;
+    height: 450px;
+    margin-top: -25%;
+    justify-content: right;
+    right: -20px;
+}
+
+
+.rodape{
+   background-color: rgb(7, 2, 47);
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+   height: 70px;
+}
+
+.direitos{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}

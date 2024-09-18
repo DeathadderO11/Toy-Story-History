@@ -1,0 +1,94 @@
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0px;
+  box-sizing:border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 2s linear;
+}
+
+.container{
+background: linear-gradient(45deg, aqua, yellow , red);
+padding: 15px 9%;
+padding-bottom: 100px;
+}
+
+.container .heading{
+  text-align: center;
+  padding-bottom: 15px;
+  color: #fff;
+  text-shadow: 0 5px 10px rgba(0,0,0,.2);
+  font-size: 50px;
+}
+.container .box-container{
+  display: grid;
+  grid-template-areas: repeat(auto-fit, minmax(270px,1fr));
+}
+
+.container .box-container .box{
+  box-shadow: 0 5px 10px  rgba(0,0,0,.2);
+  border-radius: 15px;
+  background: #fff;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+.container .box-container .box img{
+  height: 850px;
+  padding: 1.5em;
+}
+.container .box-container .box .btn{
+  margin-top: 10px;
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 5px;
+  padding: 8px 25px;
+}
+
+.container .box-container .box:hover{
+  box-shadow: 0 10px 15px rgba(0,0,0,3);
+  transform: scale(1.0);
+}
+
+@media (max-width:768px){
+  .container{
+    padding: 20px;
+  }
+}
+
+.box:hover .btn:hover{
+  color: black;
+  border: 2px solid black;
+  background: white;
+  border-radius: 15px;
+  transition: 0.8s;
+}
+
+.voltar{
+  cursor: pointer;
+  font-size: 25px;
+  text-decoration: none;
+  padding: 10px;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 97px;
+  top: 5px;
+  left: 5px;
+  position: fixed;
+  display: flex;
+}
+
+.voltar:hover{
+  background: rgba(0, 0, 0, .7);
+  border: 2px solid white;
+  color: white;
+  transition: 0.3s;
+  border-radius: 100px;
+  padding-bottom: 1px;
+  padding-top: 1px;
+}
